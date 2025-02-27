@@ -19,3 +19,6 @@ app.use("/api/recipes", recipeRoutes);
 app.listen(port, () => {
   console.log(`hello world using port ${port} yap`);
 });
+
+// Pastikan menggunakan export handler
+module.exports = app;
