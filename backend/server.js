@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     // Mengizinkan akses dari frontend Anda
-    origin: ["https://ai-recipe-oojp.vercel.app", "http://localhost:5173"],
+    origin: ["https://ai-recipe-3jc5.vercel.app", "http://localhost:5173"],
 
     // HTTP methods yang diizinkan
     methods: ["GET", "POST", "PUT", "DELETE"],
