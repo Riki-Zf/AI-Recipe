@@ -18,7 +18,7 @@ export const fetchRecipe = async (ingredients, difficulty, mealType) => {
   // Deteksi apakah berjalan di localhost atau produksi
   const isLocalhost = typeof window !== "undefined" && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
 
-  const API_URL = isLocalhost ? "http://localhost:3000" : "https://backend-airecipe-rzf.vercel.app/";
+  const API_URL = isLocalhost ? "http://localhost:3000" : "https://backend-airecipe-rzf.vercel.app";
 
   try {
     const response = await fetch(`${API_URL}/api/recipes`, {
