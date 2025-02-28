@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   daisyui: {
     themes: ["light", "dark"], // Tambahkan tema yang akan digunakan
+    base: "/",
   },
 });
