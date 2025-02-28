@@ -11,7 +11,7 @@ app.use(
     origin: "https://ai-recipe-fe.vercel.app/", // Ganti dengan domain frontend kamu
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization",
-    credentials: true,
+    credentials: false,
   })
 );
 app.use(express.json());
