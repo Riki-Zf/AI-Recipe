@@ -8,12 +8,10 @@ import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/recipe" element={<RecipePage />}></Route>
       </Routes>
-      <Footer />
     </>
   );
 };
